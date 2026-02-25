@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 function initThemeSwitcher() {
   const themeButtons = document.querySelectorAll('.theme-btn');
-  const savedTheme = localStorage.getItem('portfolio-theme') || 'blue';
+  const savedTheme = localStorage.getItem('portfolio-theme') || 'dark-blue';
 
   console.log('Initializing theme switcher with saved theme:', savedTheme);
   
